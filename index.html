@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <div  id="header">
+        <div class="container">
+            <div class="header-text">
+                <h1>We Gaurantee fast and supersafe delivery!</h1> <br>
+                <span class="square">  </span> 
+                <span class="square">  </span> 
+                <span class="square">  </span>
+                <h3> Everytime with you in your need...</h3><br>
+                <h2> From GROCERY To Medicines , NOW all available at your door steps!</h2>
+                <br> <br>
+               
+                <button class="common-btn">GET STARTED</button>
+                <br>
+                <br>
+            </div>
+            <div class="video">
+                <video class="video" src="images\v9.mp4 " autoplay loop muted></video>
+            </div>
+            <!--<div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>-->
+            </div>
+            
+        
+    </div>   
+        
+    
+    
+
+
+    <nav id="sideNav">
+        <ul>
+            <li> <a href=""></a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">FIND SHOPS AND ORDER</a></li>
+            
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">CONTACT US</a></li>
+           
+        </ul>
+    </nav>
+    <img src="images/icon3.png" id="menuBtn">
+    <!--about-->
+    <section id="about">
+        <div class="about-col">
+            
+            <img src="images/i8.png" >
+        
+               <div class="about-text">
+                <h1> Let's Get Started...!</h1>
+                <br>
+                <br> 
+                <span class="square"></span>
+                <p>
+                    You can easily find the stores nearby by typing your location. 
+                </p>
+                <br>
+                <br>
+                
+                    <ul>
+                    <li> Just type in your location and a list of available shops will be displayed nearby your location from where you can chose.</li><br>
+                    <li> Select the shop</li><br>
+                    <li> Make a list by selecting the products by adding to cart and thus proceed the purchase.</li><br>
+                    <li> Pay Online Or Pay via Cash On Delivery</li><br>
+                    <li> Track your product by the time we bring it to you with lots of safety and care. </li>
+                    <br>
+                    <li>You can also upload a list (handwritten or printed or a snapshot of list) after selecting the shop and  Continue.</li><br>
+                    </ul>
+                    <p>
+                        Place your first order NOW..!.
+                    </p>
+                
+                <span class="square"></span>
+            </div>
+        </div>
+        </section>
+        <div class="search">
+            <h1> SEARCH STORES NEAR YOU</h1>
+            <div class="flex">
+                <div>
+                    <form action="#">
+                        <input class="form" type="text" placeholder="Enter Delivery Location" name="search">
+                </div>
+        
+                <div> <button class="form1">
+                        <i class="fa fa-search" style="font-size: 18px;"> SEARCH
+                        </i>
+                    </button></div>
+                </form>
+            </div>
+        </div>
+   
+    <!--features-->
+    <section id="features">
+        <h1>We Care For You In Many Ways...</h1>
+        <div class="feature-row">
+            <div class="feature-col">
+                <video class="video" src="images/v1.mp4 " autoplay loop muted></video>
+                <h4> FAST AND RELIABLE</h4>
+            </div>
+            <div class="feature-col">
+                <video class="video" src="images/v2.mp4 " autoplay loop muted></video>
+                <h4> SHOP SITTING ON YOUR SOFA</h4>
+            </div>
+            <div class="feature-col">
+                <video class="video" src="images/v3.mp4" autoplay loop muted></video>
+                <h4>EASY ON YOUR POCKET</h4>
+            </div>
+            <div class="feature-col">
+                <video class="video" src="images/v4.mp4" autoplay loop muted></video>
+                <h4>GREAT VARIETIES ON YOUR SCREEN</h4>
+            </div>
+            
+        </div>
+        
+    </section> 
+    
+   
+    <section id="">
+        <div class="heading">
+
+        </div>
+    </section>
+
+
+
+
+    
+    <script>
+        
+        var menuBtn= document.getElementById("menuBtn");
+         var sideNav = document.getElementById("sideNav");
+         sideNav.style.right="-250px";
+         menuBtn.onclick=function(){
+             if(sideNav.style.right=="-250px"){
+                 sideNav.style.right = "0";
+             }
+             else{
+                 sideNav.style.right ="-250px";
+             }
+         }
+        </script>
+
+</body>
+</html>
